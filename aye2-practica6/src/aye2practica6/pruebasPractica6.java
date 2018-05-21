@@ -23,6 +23,10 @@ public class pruebasPractica6 {
 		h1.sumar(h2);
 		System.out.println("La suma de h1 y h2 es:" + h1);
 		
+		// Ejercicio EMpleado
+		Empleado emp1 = new Empleado(26483937, "Carlos");
+		emp1.verDatos();
+		
 	}
 
 }
