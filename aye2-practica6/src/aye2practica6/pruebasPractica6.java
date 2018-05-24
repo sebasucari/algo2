@@ -34,11 +34,16 @@ public class pruebasPractica6 {
 		
 		
 		
+		
 		System.out.println("El punto es: " + Punto.sumaCoordenadas(p1, p2).toString());
 		
 		System.out.println(p1.sonIguales(p2)); 
 		
-		
+		//Ejercicio Vecotr3D
+		Vector3D v1 = new Vector3D();
+		Vector3D v2 = new Vector3D(3f, 4f, 5f);
+		Vector3D v3 = Vector3D.sumarVector(v1, v2);
+		System.out.println(v3.toString());
 	}
 	
 

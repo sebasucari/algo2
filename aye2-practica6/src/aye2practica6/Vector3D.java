@@ -44,4 +44,11 @@ public class Vector3D extends Punto {
 	
 	}
 	
+	@Override
+	public String toString() {
+
+	return "(" + getX() + "," + getY() + "," + getZ() + ")";
+		
+	}
+	
 }
