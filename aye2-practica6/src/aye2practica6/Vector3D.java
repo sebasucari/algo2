@@ -17,6 +17,10 @@ public class Vector3D extends Punto {
 		super(x, y); //equivalente a this.x = x;   this.y = y;
 		this.z = z;
 	}
+	
+	public Vector3D () {
+		
+	}
 
 	public float getZ() {
 		return z;
@@ -26,8 +30,18 @@ public class Vector3D extends Punto {
 		this.z = z;
 	}
 	
-	public static Vector3D sumaCoordenadas()
+	public static Vector3D sumarVector(Vector3D v1, Vector3D v2) {
+		return new Vector3D(v1.x + v2.x, v1.y + v2.y, v1.z + v2.z);
+	}
 	
+	public boolean sonIguales(Vector3D v2) {
+		
+		if (this.x == v2.getX() && this.y == v2.getY() && this.z == v2.getZ()){
+			return true;
+	}else {
+		return false;
+	}
+	
+	}
 	
 }
-	
