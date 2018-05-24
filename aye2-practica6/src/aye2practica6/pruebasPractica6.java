@@ -27,6 +27,19 @@ public class pruebasPractica6 {
 		Empleado emp1 = new Empleado(26483937, "Carlos");
 		emp1.verDatos();
 		
+		// Ejercicio Punto
+		Punto p1 = new Punto(3, 4);
+		Punto p2 = new Punto(3, 4);
+		
+		
+		
+		
+		System.out.println("El punto es: " + Punto.sumaCoordenadas(p1, p2).toString());
+		
+		System.out.println(p1.sonIguales(p2)); 
+		
+		
 	}
+	
 
 }
