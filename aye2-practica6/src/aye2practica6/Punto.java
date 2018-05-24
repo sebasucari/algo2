@@ -10,12 +10,17 @@ Definir un método booleano de igualdad entre dos puntos
  */
 public class Punto {
 
-	private float x;
-	private float y;
+	protected float x;
+	protected float y;
 	
 		public Punto (float x, float y) {
 			this.x = x;
 			this.y = y;
+		}
+		
+		public Punto() {
+			this.x = 0;
+			this.y = 0;
 		}
 
 		public float getX() {
