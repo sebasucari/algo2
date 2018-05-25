@@ -44,7 +44,17 @@ public class pruebasPractica6 {
 		Vector3D v2 = new Vector3D(3f, 4f, 5f);
 		Vector3D v3 = Vector3D.sumarVector(v1, v2);
 		System.out.println(v3.toString());
+		
+		//Ejercicio Polar
+				Polares polar1 = new Polares(1,45);
+				Polares polar2 = new Polares(3, 365);
+				System.out.println(polar1.conversionX(polar1));
+				System.out.println(polar1.conversionY(polar1));
+				System.out.println(polar1.sumaPx(polar1, polar2));
 	}
 	
+	
 
+	
+	
 }
