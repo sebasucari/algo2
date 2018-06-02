@@ -46,25 +46,19 @@ public class CuentaCorriente {
 		return saldo;
 	}
 
-	private void setSaldo(float saldo) {
-		this.saldo = saldo;
-	}
+	
 
 	private int getOpsVal() {
 		return opsVal;
 	}
 
-	private void setOpsVal(int opsVal) {
-		this.opsVal = opsVal;
-	}
+	
 
 	private int getOpsInv() {
 		return opsInv;
 	}
 
-	private void setOpsInv(int opsInv) {
-		this.opsInv = opsInv;
-	}
+	
 	
 	
 }
