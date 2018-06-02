@@ -51,10 +51,30 @@ public class pruebasPractica6 {
 				System.out.println(polar1.conversionX(polar1));
 				System.out.println(polar1.conversionY(polar1));
 				System.out.println(polar1.sumaPx(polar1, polar2));
+				
+				
+				//Ejercicio Fraccion
+				Fraccion f1 = new Fraccion (4, 3);
+				Fraccion f2 = new Fraccion (2, 7);
+				Fraccion f3 = Fraccion.resta(f1, f2);
+
+				System.out.println(f3);
+				
+				//Ejercicio Monedero
+				Monedero m1 = new Monedero (0f);
+				m1.revisar();
+				m1.meter(4);
+				m1.revisar();
+				m1.sacar(7);
+				m1.revisar();
+				m1.sacar(4);
+				m1.revisar();
+				
+					
 	}
 	
 	
-
+	
 	
 	
 }
