@@ -32,19 +32,18 @@ public class Microondas {
 	
 	
 	private enum Intensidad {
-		MUYBAJA (1),
-		BAJA (2),
-		MEDIA (3),
-		ALTA (4),
-		MUYALTA (5)
-		;
+		MUYBAJA,
+		BAJA,
+		MEDIA,
+		ALTA,
+		MUYALTA 
+		
 	
 	
-	private final int nivelIntensidad;
-	Intensidad (int nivelIntensidad){
-		this.nivelIntensidad = nivelIntensidad;
+	
 	}
 	
 	private double tiempo;
 
 }
+
